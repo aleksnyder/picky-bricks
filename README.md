@@ -1,2 +1,2 @@
-# Legos_to_LEGOs
+# Legos to LEGOs
 Chrome Extension to replace all occurrences of Legos with the correct spelling.
