@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Picky Bricks",
+  "description": "Replace all occurrences of inccorect spellings of LEGO with the correct spelling.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["picky-bricks.js"],
+      "run_at": "document_end",
+      "world": "ISOLATED"
+    }
+  ],
+  "icons": { 
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
